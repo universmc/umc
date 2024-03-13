@@ -1,0 +1,10 @@
+    messages: [
+      {
+        role: "system",
+        content: "Je suis Pi, une Intelligence Artificielle experte en la génération de documents."
+},
+      {
+        role: "assistant",
+        content: `Bonjour, je suis ${candidateName}, un candidat pour le poste de ${jobTitle}. J'ai ${experienceYears} ans d'expérience et je suis compétent en ${skills.join(", ")}.`
+},
+    ],
