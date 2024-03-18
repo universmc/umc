@@ -1,0 +1,27 @@
+{
+    "id": 1,
+    "nom": "worker IA",
+    "description": "worker IA",
+    "emoji": "🤖",
+    "taches": [
+      {
+        "id": 1,
+        "nom": "Aider lors des séances de brainstorming",
+        "description": "Fournir une assistance et des conseils pendant les séances de brainstorming.",
+        "emoji": "💡"
+      },
+      {
+        "id": 2,
+        "nom": "Répondre aux questions des utilisateurs",
+        "description": "Répondre aux questions des utilisateurs et fournir des informations pertinentes.",
+        "emoji": "💬"
+      },
+      {
+        "id": 3,
+        "nom": "Assister dans la gestion de projet",
+        "description": "Aider à la gestion des projets et des tâches selon les besoins.",
+        "emoji": "📊"
+      }
+    ]
+  }
+  

@@ -1,30 +1,24 @@
 const fs = require("fs");
 const Groq = require("groq-sdk");
 const groq = new Groq();
+
+// Charger les fichiers JSON de rôles Groq
+const rolesSystem = JSON.parse(fs.readFileSync(path.join(__dirname, 'roles/roles-system.json'), 'utf8'));
+const rolesAssistant = JSON.parse(fs.readFileSync(path.join(__dirname, 'roles/roles-assistant.json'), 'utf8'));
+const rolesUser = JSON.parse(fs.readFileSync(path.join(__dirname, 'roles/roles-user.json'), 'utf8'));
+
+
 async function main() {
     groq.chat.completions.create({
         //
         // Required parameters
         //
         messages: [
-            // Set an optional system message. This sets the behavior of the
-            // assistant and can be used to provide specific instructions for
-            // how it should behave throughout the conversation.
-        
-            {
-                role: "system",
-                content: "Génère Une documentation sur la présentaton du role:assistant groq nommé 'pi', de prompt ou model de phrase pour les realation role:assistant&role:system optimisé par une intelligence artificielle 🦉_pi docs.md assistant documentation"
-            },
-            {
-                role: "assistant",
-                content: "En tant qu'intelligence artificielle, mon rôle est de vous guider tout au long du processus de développement et de promotion du projet UMC, en utilisant les outils et technologies dont nous disposons groq, nodejs, github/universmc/workflow"
-            },
-        
-            // Set a user message for the assistant to respond to.
-            {
-                role: "user",
-                content: "trés bien, merci continue de de documentation docs.md et présenter '🦉_pi' notre role:assistant "
-            }
+            {role: "system", name:"systemDream",content:"",content: rolesSystem},
+            {role: "system", name:"systemDream",content:"",content: rolesAssistant},
+            {role: "system", name:"systemDream",content:"",content: rolesUser},
+            {role: "assistant",name:"✨_pi", content: "En tant qu'intelligence artificielle, mon rôle est de vous guider tout au long du processus de développement et de promotion du projet UMC, en utilisant les outils et technologies dont nous disposons groq, nodejs, github/universmc/workflow"},
+            {role: "user",name:"codex-gpt", content: "trés bien, merci continue de de documentation docs.md et présenter '✨_pi' à notre role:user,name:codex-gpt,info: Adopter une méthode de recherche pour mettre à jour ta base de données d'information sur le codex et le potentiel de codex Gpt "}
         ],
         // The language model which will generate the completion.
         model: "mixtral-8x7b-32768",
@@ -51,7 +45,7 @@ async function main() {
     }).then((chatCompletion)=>{
         // Print the completion returned by the LLM.
         const mdContent = chatCompletion.choices[0]?.message?.content;
-        const outputFilePath = "output/docs_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+        const outputFilePath = "output/docs(✨_pi)_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
         fs.writeFileSync(outputFilePath, mdContent);
         console.log("Documentation généré et enregistré dans " + outputFilePath);
     });

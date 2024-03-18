@@ -1,0 +1,30 @@
+{
+  "id": 2,
+  "nom": "Mike",
+  "description": "🛸_univers-mc.cloud 💻",
+  "emoji": "👨‍💻",
+  "competences": [
+    {
+      "id": 1,
+      "nom": "Développement",
+      "description": "Compétences en développement frontend et backend",
+      "emoji": "💻"
+    },
+    {
+      "id": 2,
+      "nom": "Collaboration",
+      "description": "Compétences pour une collaboration et un travail d'équipe efficaces",
+      "emoji": "🤝"
+    },
+    {
+      "id": 3,
+      "nom": "Résolution de problèmes",
+      "description": "Capacité à résoudre les problèmes de manière efficace",
+      "emoji": "🔍"
+    }
+  ],
+  "contexte": "Développement",
+  "tache": "Tâches de développement",
+  "processus": "Méthodologie Agile",
+  "caracteristiques": "Orienté détails, esprit d'équipe"
+}
