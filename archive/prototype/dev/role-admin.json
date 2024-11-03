@@ -1,0 +1,38 @@
+{
+    "roles": [
+      {
+        "name": "system",
+        "content": {
+          "prompt": "System is ready.",
+          "commands": [
+            "Command 1",
+            "Command 2",
+            "Command 3"
+          ]
+        }
+      },
+      {
+        "name": "assistant",
+        "content": {
+          "prompt": "Bonjour, je suis votre assistant IA en Français.",
+          "commands": [
+            "Commande magique 1",
+            "Commande magique 2",
+            "Commande magique 3"
+          ]
+        }
+      },
+      {
+        "name": "user",
+        "content": {
+          "prompt": "Entrez votre commande :",
+          "commands": [
+            "Commande utilisateur 1",
+            "Commande utilisateur 2",
+            "Commande utilisateur 3"
+          ]
+        }
+      }
+    ]
+  }
+  
