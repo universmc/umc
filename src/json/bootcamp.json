@@ -1,0 +1,103 @@
+[       
+    {
+    "titre": "New",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Comment devenir créa freelance (et nomade) en 2024 ?."
+        }
+    ]
+    },
+    {
+        "titre": "BOOSTE TON ACTIVITÉ DE CRÉATEUR FREELANCE",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction au DevOps",
+                "contenuMarkdown": "md/cours-devops.md"
+            },
+            {
+                "sousTitre": "Déploiement et Maintenance",
+                "contenu": "Bonnes pratiques pour le déploiement et la maintenance des applications web."
+            }
+        ]
+        },
+        {
+        "titre": "ORGANISATION DES ATELIERS",
+        "sousSections": [
+            {
+                "sousTitre": "Présentation Structurée Du programme",
+                "contenu": "Organiser le contenu du cours de manière logique et intuitive."
+            },
+            {
+                "sousTitre": " > Dimanche 3 novembre à 19h (heure de Paris) :",
+                "contenu": "🔴 Atelier LIVE : Comment dire 'au revoir Président' sans gagner au loto (et en faisant ce que tu aimes) ? https://lien.createursnomades.com/a1."
+            },
+            {
+                "sousTitre": " > Lundi 4 novembre",
+                "contenu": " 📽 Masterclass vidéo : Comment gagner sa vie en indépendant en 2024 ? https://lien.createursnomades.com/a2"
+            },
+            {
+                "sousTitre": " > Mardi 5 novembre ",
+                "contenu": "📽 Masterclass vidéo : Arrêter de s'éparpiller et dompter sa créativité pour cartonner en indépandent https://lien.createursnomades.com/a3"
+            },
+            {
+                "sousTitre": " > 6 novembre à 19h (heure de Paris) ",
+                "contenu": "🤩 🔴Atelier LIVE : Comment se démarquer dans un monde saturé et les étapes pour réussir dans la durée en freelance. https://lien.createursnomades.com/a4"
+            },
+            {
+                "sousTitre": " > 7 novembre 🧑‍🎓 Ouverture du Campus et études de cas ",
+                "contenu": "🤩 🔴Atelier LIVE : "
+            },
+            {
+                "sousTitre": " > 8 novembre à 19h (heure de Paris) ",
+                "contenu": "📽 Masterclass vidéo : Comment trouver des clients en or pour bien vivre de ton activité. https://lien.createursnomades.com/a5"
+            },
+            {
+                "sousTitre": " > 9 novembre à 19h (heure de Paris) ",
+                "contenu": "📽 Journée Études de cas de créatifs qui se sont lancés"
+            },
+            {
+                "sousTitre": " > 10 novembre à 19h (heure de Paris) ",
+                "contenu": "📽 Journée Études de cas de créatifs qui se sont lancés"
+            },
+            {
+                "sousTitre": " > 11 novembre à 19h (heure de Paris) ",
+                "contenu": "📽 Journée Études de cas et FAQ"
+            },
+            {
+                "sousTitre": " > 12 novembre à 19h (heure de Paris) ",
+                "contenu": "🔴 🎉 Soirée LIVE : Clôture du défi, on fait péter tes derniers blocages lors de ce live dédié au mindset de l'entrepreneur et bien sûr, on répond à toutes tes questions ! https://lien.createursnomades.com/a7"
+            }
+        ]
+    },      
+    {
+        "titre": "Ressources",
+        "sousSections": [
+            {
+                "sousTitre": "Récapitulatif des Technologies et Concepts Clés",
+                "contenu": "..."
+            },
+            {
+                "sousTitre": "Ressources pour Approfondissement",
+                "contenu": "Livres, tutoriels en ligne, communautés de développement."
+            }
+        ]
+    },
+    {
+        "titre": "Conseils",
+        "sousSections": [
+            {
+                "sousTitre": "Interactivité avec l'IA",
+                "contenu": "Intégrer des démonstrations interactives où NeoFS génère des exemples de code en temps réel."
+            },
+            {
+                "sousTitre": "Projets Pratiques",
+                "contenu": "Encourager les étudiants à travailler sur des projets qui couvrent à la fois le front-end et le back-end, en utilisant les technologies apprises."
+            },
+            {
+                "sousTitre": "Feedback Continu",
+                "contenu": "Utiliser les retours des étudiants pour améliorer et adapter le contenu du cours."
+            }
+        ]
+    }
+]
